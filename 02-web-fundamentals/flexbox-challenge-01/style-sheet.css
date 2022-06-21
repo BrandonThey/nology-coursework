@@ -10,16 +10,27 @@ nav, nav *{
     align-items: center;
     font-weight: bold;
 }
+
 #logo {
     background-color: green;
     color: white;
-    text-align: center;
-    max-width: 100px;
-    min-height: 30px;
-    border: 200px;
-    margin: 2px;
+    height: 100%;
+    width: 15%;
 }
 
+nav {
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    font-size: 1.25em;
+    background-color: black;
+    color: white;
+}
+#nav-bar {
+    width: 50%;
+    height: 100%;
+    justify-content: space-evenly;
+}
 .horizontal-panel {
     border-style: solid;
     margin: 10px;
