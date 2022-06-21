@@ -44,7 +44,7 @@ a:hover {
 }
 
 main {
-    height: 500px
+    height: 500px;
     margin: 25px auto;
     display: flex;
     justify-content: space-evenly;
@@ -53,26 +53,32 @@ main {
 #left-side {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 67.5%;
     justify-content: space-between;
-    padding: 15px;
 }
+
 .horizontal-panel {
     border-style: solid;
-
+    height: 25%;
+    padding: 15px;
 }
 
 ul {
     margin-left: 50px;
 }
 
-#right-side {
-    width: 30%;
-    padding: 15px;
+li{
+    margin: 15px 0;
 }
 
-.vertical-panel {
-    border-style: solid;
+#right-side {
+    width: 27.5%;
+    padding: 15px;
+    border: solid 2px;
+}
+
+#right-side > h3 {
+    margin-bottom: 10px;
 }
 
 p {
