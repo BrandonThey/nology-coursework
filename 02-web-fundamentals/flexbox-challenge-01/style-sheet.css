@@ -55,16 +55,26 @@ main {
     flex-direction: column;
     width: 70%;
     justify-content: space-between;
+    padding: 15px;
 }
 .horizontal-panel {
     border-style: solid;
-    padding: 15px;
+
+}
+
+ul {
+    margin-left: 50px;
 }
 
 #right-side {
-    border-style: solid;
     width: 30%;
+    padding: 15px;
 }
+
 .vertical-panel {
     border-style: solid;
+}
+
+p {
+    text-align: justify;
 }
