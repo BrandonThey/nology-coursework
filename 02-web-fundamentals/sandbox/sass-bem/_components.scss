@@ -22,3 +22,22 @@ nav {
     border-radius: 10px;
     color: $color-white;
 }
+
+div {
+    text-align: center;
+
+    h1 {
+        color: $color-primary;
+        font-size: 50px;
+    }
+
+    h2 {
+        font-family: $font-display;
+        font-size: 25px;
+        margin: 20px 0;
+    }
+    
+    a {
+        margin: 0 auto;
+    }
+}
