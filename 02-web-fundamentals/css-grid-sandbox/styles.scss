@@ -27,7 +27,15 @@ section {
         background-color: orange;
     }
     
-    div:nth-child(1) {
+    div:nth-child(3) {
         background-color: yellow;
+    }
+}
+
+@media screen and (max-width: 768px){
+    section {
+        div {
+            width: 100%;
+        }
     }
 }
