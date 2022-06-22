@@ -28,5 +28,20 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 
+.logo {
+    font-family: $font-display;
+    font-size: 20px;
+    color: $color-white;
+}
+
+.button {
+    display: block;
+    width: 100px;
+    background-color: $color-secondary;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: $color-white;
 }
