@@ -71,9 +71,18 @@ main {
                 width: 70%;
             }
         }
-        
+    }
+
+    ul {
+        font-family: "";
+        list-style-type: none;
+        font-size: 30px;
+        li{
+            padding: 30px;
+        }
     }
 }
+
 .logo {
     font-family: $font-logo;
     font-size: 50px;
@@ -101,4 +110,12 @@ main {
     border-radius: 10px;
     font-size: 30px;
     width: 35%;
+}
+
+a:link,a:visited {
+    text-decoration: none;
+}
+
+a {
+    color: $color-primary;
 }
