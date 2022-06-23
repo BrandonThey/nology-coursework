@@ -1,9 +1,12 @@
 @import "./components";
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&family=Nunito:wght@800&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap');
 
-$font-main: "Source Sans Pro", sans-serif;
-$font-bubbly: "Nunito", sans-serif;
-$font-logo: "Baloo 2", sans-serif;
+$font-main: "Source Sans Pro",
+sans-serif;
+$font-bubbly: "Nunito",
+sans-serif;
+$font-logo: "Baloo 2",
+sans-serif;
 
 $color-primary: rgb(59, 59, 144);
 $color-secondary: rgb(29, 205, 221);
@@ -22,7 +25,7 @@ body {
 
 header {
     color: $color-secondary;
-    font-size: 30px;
+    font-size: 25px;
     font-family: $font-bubbly;
 }
 
@@ -41,7 +44,7 @@ main {
         color: $color-primary;
         font-size: 30px;
     }
-    
+
     h2 {
         color: $color-secondary;
         font-size: 25px;
@@ -52,21 +55,23 @@ main {
         color: $color-primary;
     }
 
-    div{
+    div {
         padding: 60px;
     }
 
     section {
         width: 100%;
+
         h2 {
             font-size: 28px;
             color: $color-primary;
         }
 
-        div{
+        div {
             display: flex;
             padding: 10px;
-            p{
+
+            p {
                 font-size: 28px;
                 width: 70%;
             }
@@ -77,15 +82,24 @@ main {
         font-family: "";
         list-style-type: none;
         font-size: 30px;
-        li{
+
+        li {
             padding: 30px;
         }
     }
 }
 
+b {
+    font-weight: bold;
+}
+
+i {
+    font-style: italic;
+}
+
 .logo {
     font-family: $font-logo;
-    font-size: 50px;
+    font-size: 70px;
     color: $color-primary;
     width: 40%;
 }
@@ -112,7 +126,8 @@ main {
     width: 35%;
 }
 
-a:link,a:visited {
+a:link,
+a:visited {
     text-decoration: none;
 }
 
