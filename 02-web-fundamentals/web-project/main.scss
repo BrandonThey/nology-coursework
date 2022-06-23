@@ -1,4 +1,9 @@
 @import "./components";
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&family=Nunito:wght@800&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap');
+
+$font-main: "Source Sans Pro", sans-serif;
+$font-bubbly: "Nunito", sans-serif;
+$font-logo: "Baloo 2", sans-serif;
 
 $color-primary: rgb(59, 59, 144);
 $color-secondary: rgb(29, 205, 221);
@@ -12,11 +17,13 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    font-family: $font-main;
 }
 
 header {
     color: $color-secondary;
     font-size: 30px;
+    font-family: $font-bubbly;
 }
 
 nav {
@@ -68,7 +75,7 @@ main {
     }
 }
 .logo {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: $font-logo;
     font-size: 50px;
     color: $color-primary;
     width: 40%;
