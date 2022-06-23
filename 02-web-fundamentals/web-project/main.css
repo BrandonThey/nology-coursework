@@ -1,0 +1,38 @@
+nav {
+  height: 10vh;
+  width: 50%;
+  background-color: white;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+  color: #3b3b90;
+  width: 40%;
+}
+
+.login {
+  font-size: 30px;
+  background-color: white;
+  color: #3b3b90;
+  border: 2px solid #3b3b90;
+  width: 30%;
+  text-align: center;
+  padding: 15px 10px;
+  border-radius: 10px;
+}
+
+.button {
+  display: block;
+  width: 14%;
+  background-color: #3b3b90;
+  color: white;
+  text-align: center;
+  padding: 25px 100px;
+  border-radius: 10px;
+  font-size: 19px;
+}

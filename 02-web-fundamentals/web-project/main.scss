@@ -1,0 +1,45 @@
+@import "./components";
+
+$color-primary: rgb(59, 59, 144);
+$color-secondary: rgb(72, 240, 255);
+$color-white: white;
+
+nav {
+    height: 10vh;
+    width: 50%;
+    background-color: $color-white;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: $color-primary;
+    width: 40%;
+}
+
+.login {
+    font-size: 30px;
+    background-color: $color-white;
+    color: $color-primary;
+    border: 2px solid $color-primary;
+    width: 30%;
+    text-align: center;
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+
+.button {
+    display: block;
+    width: 14%;
+    background-color: $color-primary;
+    color: $color-white;
+    text-align: center;
+    padding: 25px 100px;
+    border-radius: 10px;
+    font-size: 19px;
+    
+}
