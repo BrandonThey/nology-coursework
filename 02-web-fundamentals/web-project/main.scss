@@ -1,12 +1,27 @@
 @import "./components";
 
 $color-primary: rgb(59, 59, 144);
-$color-secondary: rgb(72, 240, 255);
+$color-secondary: rgb(29, 205, 221);
 $color-white: white;
+
+
+body {
+    margin: 10px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    color: $color-secondary;
+    font-size: 30px;
+}
 
 nav {
     height: 10vh;
-    width: 50%;
+    width: 100%;
     background-color: $color-white;
     padding: 0 40px;
     display: flex;
@@ -14,6 +29,27 @@ nav {
     align-items: center;
 }
 
+main {
+    h1 {
+        color: $color-primary;
+        font-size: 30px;
+    }
+    
+    h2 {
+        color: $color-secondary;
+        font-size: 25px;
+    }
+
+    p {
+        color: $color-primary;
+    }
+
+    section {
+        h2 {
+            color: $color-primary;
+        }
+    }
+}
 .logo {
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
@@ -26,20 +62,20 @@ nav {
     background-color: $color-white;
     color: $color-primary;
     border: 2px solid $color-primary;
-    width: 30%;
+    width: 25%;
     text-align: center;
     padding: 15px 10px;
     border-radius: 10px;
 }
 
 .button {
-    display: block;
-    width: 14%;
     background-color: $color-primary;
     color: $color-white;
     text-align: center;
-    padding: 25px 100px;
+    padding: 25px 20px;
+    border: 30px 30px;
     border-radius: 10px;
     font-size: 19px;
-    
+    width: 35%;
 }
+
