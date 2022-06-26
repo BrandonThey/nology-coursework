@@ -15,7 +15,6 @@ $color-white: white;
 
 body {
     margin: 10px;
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -133,4 +132,22 @@ a:visited {
 
 a {
     color: $color-primary;
+}
+
+@media screen and (max-width: 991px){
+    body {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    body {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    body {
+        width: 50%;
+    }
 }
