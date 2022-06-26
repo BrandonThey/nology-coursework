@@ -1,4 +1,75 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&family=Nunito:wght@800&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap");
+@media screen and (max-width: 991px) {
+  body {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    width: 50%;
+  }
+}
+.logo {
+  font-family: "Baloo 2", sans-serif;
+  font-size: 70px;
+  color: #3b3b90;
+  width: 40%;
+}
+
+.login {
+  font-size: 30px;
+  background-color: white;
+  color: #3b3b90;
+  border: 2px solid #3b3b90;
+  width: 25%;
+  text-align: center;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+
+.button {
+  background-color: #3b3b90;
+  color: white;
+  text-align: center;
+  padding: 30px 100px;
+  border: 30px 30px;
+  border-radius: 10px;
+  font-size: 30px;
+  width: 35%;
+}
+
+nav {
+  height: 10vh;
+  width: 100%;
+  background-color: white;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+b {
+  font-weight: bold;
+}
+
+i {
+  font-style: italic;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a {
+  color: #3b3b90;
+}
+
 body {
   margin: 10px;
   display: flex;
@@ -12,16 +83,6 @@ header {
   color: #1dcddd;
   font-size: 25px;
   font-family: "Nunito", sans-serif;
-}
-
-nav {
-  height: 10vh;
-  width: 100%;
-  background-color: white;
-  padding: 0 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 main h1 {
@@ -61,66 +122,4 @@ main ul {
 }
 main ul li {
   padding: 30px;
-}
-
-b {
-  font-weight: bold;
-}
-
-i {
-  font-style: italic;
-}
-
-.logo {
-  font-family: "Baloo 2", sans-serif;
-  font-size: 70px;
-  color: #3b3b90;
-  width: 40%;
-}
-
-.login {
-  font-size: 30px;
-  background-color: white;
-  color: #3b3b90;
-  border: 2px solid #3b3b90;
-  width: 25%;
-  text-align: center;
-  padding: 20px 10px;
-  border-radius: 10px;
-}
-
-.button {
-  background-color: #3b3b90;
-  color: white;
-  text-align: center;
-  padding: 30px 100px;
-  border: 30px 30px;
-  border-radius: 10px;
-  font-size: 30px;
-  width: 35%;
-}
-
-a:link,
-a:visited {
-  text-decoration: none;
-}
-
-a {
-  color: #3b3b90;
-}
-
-@media screen and (max-width: 991px) {
-  body {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 768px) {
-  body {
-    width: 75%;
-  }
-}
-@media screen and (max-width: 480px) {
-  body {
-    width: 50%;
-  }
 }

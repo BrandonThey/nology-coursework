@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&family=Nunito:wght@800&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap');
+
+$font-main: "Source Sans Pro",
+sans-serif;
+$font-bubbly: "Nunito",
+sans-serif;
+$font-logo: "Baloo 2",
+sans-serif;
+
+$color-primary: rgb(59, 59, 144);
+$color-secondary: rgb(29, 205, 221);
+$color-white: white;
+
+@media screen and (max-width: 991px){
+    body {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    body {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    body {
+        width: 50%;
+    }
+}
