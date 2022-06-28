@@ -1,3 +1,4 @@
+//File for the first code along in 03-Javascript
 // if a name, is a coaches name, log "It's a coach"
 const name = "Michael";
 if(name == "Michael"){
