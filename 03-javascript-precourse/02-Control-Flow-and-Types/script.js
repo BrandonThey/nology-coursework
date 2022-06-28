@@ -1,6 +1,7 @@
 //javascript file for the second javascript code alog in 03-Javascript
 function handleCalculateGrade(event){
     const grade = event.target.value;
+    if(!grade){return;}
     let uppercaseGrade = grade.toUpperCase();
     let percentage;
     switch(uppercaseGrade){
@@ -19,6 +20,8 @@ function handleCalculateGrade(event){
         case "E":
             percentage = "0-25%";
             break;
+        default:
+
     }
 
     alert("The percentage was " + percentage);
