@@ -1,5 +1,5 @@
 //javascript file for the first javascript challenge in 03-Javascript
-function calculateYearsUntilRetirement(event){
+function calculateYearsUntilRetirement(event) {
     //getting the value of the event
     const currentAge = event.target.value;
     const retirementAge = 65;
@@ -10,18 +10,16 @@ function calculateYearsUntilRetirement(event){
 function getGreetingInFrench(event) {
     const greeting = event.target.value;
 
-    if(greeting == "Hello"){
+    if (greeting == "Hello") {
         alert("Bonjour");
-    }
-    else if(greeting == "Goodbye"){
+    } else if (greeting == "Goodbye") {
         alert("Au revoir")
-    }
-    else {
+    } else {
         alert("Not recognized")
     }
 }
 
-function minutesToSeconds(event){
+function minutesToSeconds(event) {
     const minutes = event.target.value;
     let seconds = minutes * 60;
     alert(seconds);
