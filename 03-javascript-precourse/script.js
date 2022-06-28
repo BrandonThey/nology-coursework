@@ -6,3 +6,17 @@ function calculateYearsUntilRetirement(event){
     let yearsUntilRetirement = retirementAge - currentAge;
     alert(yearsUntilRetirement);
 }
+
+function getGreetingInFrench(event) {
+    const greeting = event.target.value;
+
+    if(greeting == "Hello"){
+        alert("Bonjour");
+    }
+    else if(greeting == "Goodbye"){
+        alert("Au revoir")
+    }
+    else {
+        alert("Not recognized")
+    }
+}
