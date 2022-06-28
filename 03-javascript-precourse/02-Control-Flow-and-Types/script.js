@@ -1,0 +1,1 @@
+//javascript file for the second javascript code alog in 03-Javascript
