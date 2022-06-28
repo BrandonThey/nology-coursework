@@ -20,3 +20,9 @@ function getGreetingInFrench(event) {
         alert("Not recognized")
     }
 }
+
+function minutesToSeconds(event){
+    const minutes = event.target.value;
+    let seconds = minutes * 60;
+    alert(seconds);
+}
