@@ -5,17 +5,17 @@ const currentArticle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 const hasPassedTest = true;
 const amountOfWords = 957;
 
-if(currentHeadline.length > 20){
-    currentHeadline = currentHeadline + "...";
+if(currentHeadline.length > 15){
+    currentHeadline = currentHeadline.substring(0,15) + "...";
 }
 
-console.log("Nolofy Post 2021");
+console.log("Nology Post 2021");
 console.log(`Headling: ${currentHeadline}`);
 console.log(currentArticle);
 
-getWordAndCharCount(amountOfWords, currentArticle);
+logWordAndCharCount(amountOfWords, currentArticle);
 
-function getWordAndCharCount(amountOfWords, currentArticle) {
+function logWordAndCharCount(amountOfWords, currentArticle) {
     console.log("The amount of words are: " + amountOfWords)
     console.log("The amount of characters are: " + currentArticle.length)
 }
