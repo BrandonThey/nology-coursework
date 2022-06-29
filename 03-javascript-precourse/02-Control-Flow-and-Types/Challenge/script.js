@@ -52,3 +52,33 @@ function daysUntilWeekend(day) {
             break;
     }
 }
+
+function vegetablePrices(event){
+    const vegetable = (event.target.value).toLowerCase();
+    const potatoePrice = 10;
+    const carrotPrice = 10;
+    const brocolliPrice = 20;
+    const cabbagePrice = 25;
+    const asparagusPrice = 30;
+
+    switch(vegetable){
+        case "potatoe":
+            alert("The price of potatoes are " + potatoePrice + " dollars per kg.");
+            break;
+        case "carrot":
+            alert("The price of carrots are " + carrotPrice + " dollars per kg.");
+            break;
+        case "brocolli":
+            alert("The price of brocolli is " + brocolliPrice + " dollars per kg.");
+            break;
+        case "cabbage":
+            alert("The price of cabbages are " + cabbagePrice + " dollars per kg.");
+            break;
+        case "asparagus":
+            alert("The price of asparagus is " + asparagusPrice + " dollars per kg.");
+            break;
+        default:
+            alert("Sorry we dont recognize that product.");
+            break;
+    }
+}
