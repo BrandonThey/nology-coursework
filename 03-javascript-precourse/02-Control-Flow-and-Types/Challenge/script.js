@@ -25,7 +25,7 @@ function findGreatestNumber(num1, num2, num3) {
 
 function daysUntilWeekend(day) {
     let lowercaseDay = day.toLowerCase();
-    switch(lowercaseDay){
+    switch (lowercaseDay) {
         case "sunday":
             console.log("It is the weekend!");
             break;
@@ -53,7 +53,7 @@ function daysUntilWeekend(day) {
     }
 }
 
-function vegetablePrices(event){
+function vegetablePrices(event) {
     const vegetable = (event.target.value).toLowerCase();
     const potatoePrice = 10;
     const carrotPrice = 10;
@@ -61,7 +61,7 @@ function vegetablePrices(event){
     const cabbagePrice = 25;
     const asparagusPrice = 30;
 
-    switch(vegetable){
+    switch (vegetable) {
         case "potatoe":
             alert("The price of potatoes are " + potatoePrice + " dollars per kg.");
             break;
