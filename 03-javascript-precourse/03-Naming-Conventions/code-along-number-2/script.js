@@ -1,0 +1,3 @@
+// Client Brief...
+// Create an application which can be used to keep track
+// of a score in a football match
