@@ -55,15 +55,15 @@ function daysUntilWeekend(day) {
 
 function vegetablePrices(event) {
     const vegetable = (event.target.value).toLowerCase();
-    const potatoePrice = 10;
+    const potatoPrice = 10;
     const carrotPrice = 10;
     const brocolliPrice = 20;
     const cabbagePrice = 25;
     const asparagusPrice = 30;
 
     switch (vegetable) {
-        case "potatoe":
-            alert("The price of potatoes are " + potatoePrice + " dollars per kg.");
+        case "potato":
+            alert("The price of potatoes are " + potatoPrice + " dollars per kg.");
             break;
         case "carrot":
             alert("The price of carrots are " + carrotPrice + " dollars per kg.");
