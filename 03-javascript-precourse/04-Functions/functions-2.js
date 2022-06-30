@@ -4,8 +4,9 @@
 // call the function 3 times with 3 different values for the arguments
 
 const getDescription = (numberOfChildren, partnersName, geographicLocation, jobTitle) => {
-    console.log(`I'm currently a ${jobTitle} living in ${geographicLocation}, and married to 
-                    ${partnersName} with ${numberOfChildren} kids.`)
+    console.log(`I'm currently a ${jobTitle} living in ${geographicLocation}, and married to ${partnersName} with ${numberOfChildren} kid(s).`);
 }
 
-getDescription()
+getDescription(4, "Sandy", "Texas", "programmer");
+getDescription(10, "John", "Washington State", "sales representative");
+getDescription(1, "Lisa", "Los Angeles, California", "telemarketer");
