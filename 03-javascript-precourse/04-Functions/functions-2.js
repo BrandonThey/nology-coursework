@@ -45,7 +45,7 @@ calculateSupply(85,55.5);
 const temperatureConverter = (temp, metric) => {
     let convertedTemp;
     let message;
-    metric = metric.ToLower();
+    metric = metric.toLowerCase();
 
     if(metric == "celsius"){
         convertedTemp = (temp * 1.8) + 32;
@@ -53,13 +53,17 @@ const temperatureConverter = (temp, metric) => {
         message = `${temp} degrees in Celsius is ${convertedTemp} degrees in Fahrenheit.`
         console.log(message);
 
-    }else if(metric == "farenheit"){
+    }else if(metric == "fahrenheit"){
         convertedTemp = (temp - 32) / 1.8;
         convertedTemp = Math.round(convertedTemp);
         message = `${temp} degrees in Fahrenheit is ${convertedTemp} degrees in Celsius.`
         console.log(message);
-        
+
     }else {
         console.log("Sorry that metric isnt recognized.")
     }
 }
+
+temperatureConverter(25,"celsius");
+temperatureConverter(100,"FahrenHeit");
+temperatureConverter(0,"kelvin");
