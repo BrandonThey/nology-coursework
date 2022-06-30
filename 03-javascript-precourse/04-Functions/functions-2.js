@@ -34,3 +34,32 @@ const calculateSupply = (currentAge, amountPerDay) => {
 calculateSupply(65,20);
 calculateSupply(90,1500);
 calculateSupply(85,55.5);
+
+// Temperature converter
+
+// Write a function named temperatureConverter that: 
+// Converts between celsius and farenheit given two arguments: temperature, metric
+// outputs the results to the screen like so: "W degrees in X is Y degrees in Z."
+// Test the function 3 times
+
+const temperatureConverter = (temp, metric) => {
+    let convertedTemp;
+    let message;
+    metric = metric.ToLower();
+
+    if(metric == "celsius"){
+        convertedTemp = (temp * 1.8) + 32;
+        convertedTemp = Math.round(convertedTemp);
+        message = `${temp} degrees in Celsius is ${convertedTemp} degrees in Fahrenheit.`
+        console.log(message);
+
+    }else if(metric == "farenheit"){
+        convertedTemp = (temp - 32) / 1.8;
+        convertedTemp = Math.round(convertedTemp);
+        message = `${temp} degrees in Fahrenheit is ${convertedTemp} degrees in Celsius.`
+        console.log(message);
+        
+    }else {
+        console.log("Sorry that metric isnt recognized.")
+    }
+}
