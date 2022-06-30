@@ -82,4 +82,6 @@ const calculatePuppyAge = (humanAgeOfDog) => {
     console.log(message);
 }
 
-calculatePuppyAge();
+calculatePuppyAge(7);
+calculatePuppyAge(1);
+calculatePuppyAge(4);
