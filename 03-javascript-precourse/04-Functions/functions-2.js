@@ -60,10 +60,26 @@ const temperatureConverter = (temp, metric) => {
         console.log(message);
 
     }else {
-        console.log("Sorry that metric isnt recognized.")
+        console.log("Sorry that metric is not recognized.")
     }
 }
 
 temperatureConverter(25,"celsius");
 temperatureConverter(100,"FahrenHeit");
 temperatureConverter(0,"kelvin");
+
+// Puppy Age Calculator
+
+// // Write a function named calculatePuppyAge that: 
+// takes an argument: age of dog
+// calculates the age of a dog in dog years based on 1 human year = 7 dog years
+// outputs the results to the screen like so: "X years in human years is Y years in dog years."
+// Test the function 3 times
+
+const calculatePuppyAge = (humanAgeOfDog) => {
+    const dogAgeOfDog = humanAgeOfDog * 7;
+    const message = `${humanAgeOfDog} years in human years is ${dogAgeOfDog} years in dog years.`;
+    console.log(message);
+}
+
+calculatePuppyAge();
