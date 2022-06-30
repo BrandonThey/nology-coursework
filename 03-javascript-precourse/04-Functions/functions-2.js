@@ -21,12 +21,16 @@ getDescription(1, "Lisa", "Los Angeles, California", "telemarketer");
 // Call that function 3 times passing different values
 // bonus: accept floating point values for amount per day and round the results to a round number
 
-const calculateSupply = (age, amountPerDay) => {
-    const numberOfDays = age * 365;
+const calculateSupply = (currentAge, amountPerDay) => {
+    const maxAge = 90;
+    const numberOfDays = (maxAge - currentAge) * 365;
     let amountOfSnickers = numberOfDays * amountPerDay;
     amountOfSnickers = Math.round(amountOfSnickers);
 
-    const message = `You will need ${amountOfSnickers} to last until the ripe old age of ${age}`;
+    const message = `You will need ${amountOfSnickers} to last until the ripe old age of ${maxAge}`;
     console.log(message);
 }
 
+calculateSupply(65,20);
+calculateSupply(90,1500);
+calculateSupply(85,55.5);
