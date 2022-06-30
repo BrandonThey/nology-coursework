@@ -24,10 +24,10 @@ getDescription(1, "Lisa", "Los Angeles, California", "telemarketer");
 const calculateSupply = (currentAge, amountPerDay) => {
     const maxAge = 90;
     const numberOfDays = (maxAge - currentAge) * 365;
-    let amountOfSnickers = numberOfDays * amountPerDay;
-    amountOfSnickers = Math.round(amountOfSnickers);
+    let amountOfSnickersPerLifetime = numberOfDays * amountPerDay;
+    amountOfSnickersPerLifetime = Math.round(amountOfSnickersPerLifetime);
 
-    const message = `You will need ${amountOfSnickers} to last until the ripe old age of ${maxAge}`;
+    const message = `You will need ${amountOfSnickersPerLifetime} to last until the ripe old age of ${maxAge}`;
     console.log(message);
 }
 
