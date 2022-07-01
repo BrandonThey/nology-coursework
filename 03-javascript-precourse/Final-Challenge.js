@@ -20,3 +20,17 @@ const convertDaysToAge = (numberOfDays) => {
 // testing the convert days to age function
 console.log(convertDaysToAge(3650)); // returns 10
 console.log(convertDaysToAge(6570)); // returns 18
+
+const getLargestNumber = (num1, num2, num3) => {
+    if(num1 > num2 && num1 > num3){
+        return num1;
+    } else if(num2 > num1 && num2 > num3){
+        return num2;
+    } else{
+        return num3;
+    }
+}
+
+// testing the getLargestNumber function
+console.log(getLargestNumber(2 ,1, 4)); // returns 4
+console.log(getLargestNumber(6,2,3)); // returns 6
