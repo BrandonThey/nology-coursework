@@ -11,3 +11,8 @@ console.log(fibNumbers);
 
 const trueFalse = [true, true, false, false];
 console.log(trueFalse);
+
+// 3. create a sample for loop
+for(let index = 0; index < 5; index++){
+    console.log("The index on this loop was " + index);
+}
