@@ -28,12 +28,21 @@
 }
 
 nav {
+    
+    div {
+        display: flex;
+        align-items: flex-start;
+        a {
+            padding: 20px;
+        }
+    }
+
     height: 10vh;
     width: 100%;
     background-color: $color-white;
-    padding: 0 40px;
+    padding: 20px 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 

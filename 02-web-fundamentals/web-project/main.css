@@ -47,10 +47,17 @@ nav {
   height: 10vh;
   width: 100%;
   background-color: white;
-  padding: 0 40px;
+  padding: 20px 40px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+}
+nav div {
+  display: flex;
+  align-items: flex-start;
+}
+nav div a {
+  padding: 20px;
 }
 
 b {
@@ -110,6 +117,9 @@ main section h2 {
 main section div {
   display: flex;
   padding: 10px;
+}
+main section div img {
+  width: 156px;
 }
 main section div p {
   font-size: 28px;
